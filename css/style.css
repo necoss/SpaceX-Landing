@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    width: 1231px;
+    padding: 0 auto;
+    margin: auto;
+}
+.head__info{
+    margin-top: 53px;
+}
+.head__info-nav nav{
+    display: flex;
+    justify-content: space-between;
+}
+.head__info-nav ul{
+    display: flex;
+}
+.head__info-nav li{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+.head__info-nav li:last-child{
+    padding: 0;
+}
+.nav__sectiontwo li a{
+    color: #808080;
+}
+.head__info-nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: 'Roboto';
+}
+.head__info-nav a::after{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.head__info-nav a:hover:after,
+.head__info-nav a:focus:after {
+    width: 100%;
+}
+.nav__sectiontwo li a{
+    color: #808080;
+}
+/* ОСНОВНОЙ БЛОК */
+.main-section__one{
+    padding-top: 120px;
+}
+.main-section__one-text h1{
+    text-align: center;
+    color: white;
+    font-size: 64px;
+    font-weight: 400;
+    font-family: 'Roboto';
+}
+.main-section__one-text p{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Roboto';
+    padding-top: 26px;
+    line-height: 22px;
+    padding-bottom: 26px;
+}
+.vertical-border{
+    border-left: 1px solid white;
+    height: 59px;
+    position: absolute;
+    left: 50%;
+}
+.main-section__one-img{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Вторая секция */
+.main-section__two{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.main-section__two-text{
+    padding-top: 492px;
+}
+.section__two__block-1 h2{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    line-height: 140%;
+}
+.section__two__block-1__info{
+    display: flex;
+    padding-top: 45px;
+}
+.first-column p{
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto';
+    padding-bottom: 11px;
+    padding-right: 130px;
+}
+.second-column p{
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto';
+    padding-bottom: 11px;
+}
+.second-column p span{
+    color: #B2B0B2;
+}
+.section__two__block-2 h2{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    padding-top: 218px;
+    line-height: 140%;
+}
+.section__two__block-2__info p{
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto';
+    padding-top: 45px;
+    width: 490px;
+    line-height: 29px;
+}
+/* Футер */
+.footer{
+    padding-top: 183px;
+}
+.footer-logo{
+    display: flex;
+    justify-content:  center;
+}
+.footer-links{
+    padding-top: 43px;
+    display: flex;
+    justify-content: center;
+}
+.footer-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Roboto';
+    margin-right: 20px;
+}
+
+.footer-links a::after{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.footer-links a:hover:after,
+.footer-links a:focus:after {
+    width: 100%;
+}
+.footer-links a:last-child{
+    margin-right: 0px;
+}
+.footer-addinfo p{
+    color: #808080;
+    font-size: 18px;
+    font-family: 'Roboto';
+    padding-top: 28px;
+    text-align: center;
+}
+.footer__button{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.footer__button a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto';
+    border: 2px solid #FFFFFF;
+    border-radius: 6px;
+    padding: 20px 86px;
+    transition: ease-in-out 0.3s;
+}
+.footer__button a:hover{
+    color: black;
+    background-color: white;
+}
